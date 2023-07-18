@@ -1,4 +1,6 @@
 @media screen and (max-width: 425px) {
+
+    /* Nav part */
     .nav-container {
         flex-direction: column;
     }
@@ -17,4 +19,36 @@
         flex-direction: column;
         gap: 35px;
     }
+
+    /* Banner part */
+    .banner-container {
+        flex-direction: column;
+
+    }
+
+    .banner-details {
+        padding: 20px;
+    }
+
+    .banner-title {
+        font-size: 30px;
+    }
+
+    .banner-goat {
+        font-size: 70px;
+    }
+
+    .banner-info {
+        font-size: 17px;
+    }
+
+    .banner-btn-one {
+        padding: 18px 38px;
+
+    }
+
+    .banner-btn-two {
+        padding: 20px 40px;
+    }
+
 }
