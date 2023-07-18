@@ -1,0 +1,51 @@
+/* Google font */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Work+Sans:wght@400;500;600;800&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* Nave style start */
+.nav-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.logo-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.primary-color {
+    color: #FF42A5;
+}
+
+.menus {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menus a {
+    text-decoration: none;
+    padding-right: 32px;
+    color: #3C354F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.follow-us {
+    padding: 18px 122px 18px 25px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+}
