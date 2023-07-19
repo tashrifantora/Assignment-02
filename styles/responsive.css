@@ -1,4 +1,7 @@
 @media screen and (max-width: 425px) {
+    body {
+        margin: 5px;
+    }
 
     /* Nav part */
     .nav-container {
@@ -139,6 +142,10 @@
  =================================>*/
 
 @media screen and (min-width:426px) and (max-width:768px) {
+    body {
+        margin: 10px;
+    }
+
     .nav-container {
         flex-direction: column;
     }
