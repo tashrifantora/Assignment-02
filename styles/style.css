@@ -181,6 +181,12 @@ body {
     border: 2px solid #F948B2;
     border-radius: 8px;
     background: rgba(0, 0, 0, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FF42A5;
+    gap: 7px;
 }
 
 /* play online game style */
@@ -231,24 +237,80 @@ body {
 
 }
 
+
 .single-game {
     border: none;
     border-radius: 50px;
+    background: #e7e4e4;
     color: #0B0223;
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 20px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .game-title {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 2px;
+}
+
+.game-title img {
+    width: 60px;
+    height: 60px;
 }
 
 .games-container button:hover {
     border: 2px solid #F948B2;
     color: #FF42A5;
+}
+
+/* Footer part */
+.footer {
+    background: #0B0223;
+    padding: 80px 550px 120px 550px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: white;
+    font-size: 28px;
+    margin-bottom: 65px;
+}
+
+.footer-service {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin-bottom: 65px;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 65px;
+}
+
+.fa-brands {
+    font-size: 28px;
+    color: white;
+}
+
+.footer-more-options {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    margin-bottom: 65px;
+}
+
+.copyright-section {
+    color: white;
+    text-align: center;
 }
