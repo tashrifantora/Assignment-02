@@ -117,11 +117,11 @@ body {
 }
 
 /* Online games style start */
-.game-container {
+.game-videos-container {
     margin-top: 120px;
 }
 
-.games-title {
+.game-videos-title {
     color: #0B0223;
     text-align: center;
     font-size: 48px;
@@ -137,7 +137,7 @@ body {
     font-weight: 700;
 }
 
-.games-discription {
+.game-videos-discription {
     color: #534C64;
     text-align: center;
     font-size: 18px;
@@ -145,7 +145,7 @@ body {
     line-height: 30px;
 }
 
-.game-section {
+.funny-game-videos {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -218,4 +218,37 @@ body {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
+}
+
+/* Game container start */
+.games-container {
+    padding: 120px 240px 140px 240px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+
+}
+
+.single-game {
+    border: none;
+    border-radius: 50px;
+    color: #0B0223;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.game-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2px;
+}
+
+.games-container button:hover {
+    border: 2px solid #F948B2;
+    color: #FF42A5;
 }

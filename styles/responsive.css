@@ -52,7 +52,7 @@
     }
 
     /* Online game section*/
-    .game-section {
+    .funny-game-videos {
         flex-direction: column;
         padding: 20px;
         text-align: center;
@@ -60,11 +60,11 @@
         gap: 20px;
     }
 
-    .games-title {
+    .game-videos-title {
         font-size: 35px;
     }
 
-    .games-discription {
+    .game-videos-discription {
         font-size: 15px;
     }
 
@@ -100,7 +100,16 @@
         font-size: 13px;
 
     }
+
+    /* Games container */
+    .games-container {
+        padding: 10px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
 }
+
 
 
 /* Responsive for Tablet */
