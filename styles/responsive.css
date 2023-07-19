@@ -134,7 +134,10 @@
 
 
 
-/* Responsive for Tablet */
+/*<================================
+     Responsive for Tablet 
+ =================================>*/
+
 @media screen and (min-width:426px) and (max-width:768px) {
     .nav-container {
         flex-direction: column;
@@ -177,7 +180,7 @@
     /* Play online games start */
     .online-game-img-container {
         flex-direction: column;
-        margin: 50px;
+
     }
 
     .online-game-img {
@@ -189,7 +192,7 @@
     }
 
     .girl-cat {
-        width: 47%;
+
         position: absolute;
         left: 65%;
         top: 65%;
@@ -204,14 +207,15 @@
     .online-games-discription {
         text-align: center;
         font-size: 13px;
+        padding-bottom: 0px;
 
     }
 
     /* Games container start*/
     .games-container {
-        padding: 10px;
+        padding: 0px;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 2fr);
 
     }
 
@@ -219,7 +223,7 @@
 
     /* Footer part style */
     .footer {
-        padding: 20px;
+        padding: 20px 0px 0px 0px;
     }
 
     .footer-service,
